@@ -1,0 +1,165 @@
+﻿取得日	地点	block_no	種類	日時	前の値	新しい値	前の取得日	出所
+2026-09-24	勝浦	47674	daily	2026-09-21	日別値_品質 quasi	日別値_品質 normal	2026-09-22	取り込み raw/typhoon25_2026-09/summary_10min_20260920-20260922.tsv
+2026-09-24	勝浦	47674	tenmin	2026-09-21 21:30	品質 quasi	品質 normal	2026-09-22	取り込み raw/typhoon25_2026-09/勝浦_47674_10min_20260920-20260922.tsv
+2026-09-24	勝浦	47674	tenmin	2026-09-21 22:20	品質 quasi	品質 normal	2026-09-22	取り込み raw/typhoon25_2026-09/勝浦_47674_10min_20260920-20260922.tsv
+2026-09-28	千葉	47682	annual_max	1966	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	千葉	47682	annual_max	2026	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	佐倉	0916	annual_max	1981	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	佐倉	0916	annual_max	1983	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	佐倉	0916	annual_max	1984	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	佐倉	0916	annual_max	1998	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	佐倉	0916	annual_max	2008	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1906	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1907	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1908	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1909	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1910	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1911	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1912	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1913	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1914	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1915	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1916	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1917	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1918	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1919	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1920	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1921	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1922	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1923	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1924	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1925	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1926	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1927	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1928	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1929	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1930	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1931	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1932	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1933	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1934	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1935	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1936	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1937	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1938	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1939	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1940	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1941	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1942	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1943	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1945	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1946	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1947	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	1948	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	2018	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	勝浦	47674	annual_max	2026	10分 13.5、10分_品質 quasi、1時間_品質 quasi	10分 19.0、10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	坂畑	1241	annual_max	1978	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	坂畑	1241	annual_max	1984	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	坂畑	1241	annual_max	2000	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	坂畑	1241	annual_max	2008	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	大多喜	1004	annual_max	1977	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	大多喜	1004	annual_max	1999	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	大多喜	1004	annual_max	2009	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	成田	0378	annual_max	1978	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	成田	0378	annual_max	2004	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	成田	0378	annual_max	2009	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	我孫子	0376	annual_max	1981	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	我孫子	0376	annual_max	2005	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	我孫子	0376	annual_max	2008	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	我孫子	0376	annual_max	2010	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	木更津	0382	annual_max	2006	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	木更津	0382	annual_max	2008	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	東庄	0377	annual_max	1976	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	東庄	0377	annual_max	1977	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	東庄	0377	annual_max	1981	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	東庄	0377	annual_max	1982	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	東庄	0377	annual_max	1989	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	東庄	0377	annual_max	2007	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	東庄	0377	annual_max	2009	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	東庄	0377	annual_max	2019	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	横芝光	1003	annual_max	1980	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	横芝光	1003	annual_max	2008	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	牛久	1238	annual_max	1978	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	牛久	1238	annual_max	1979	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	牛久	1238	annual_max	2008	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	船橋	1236	annual_max	1978	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	船橋	1236	annual_max	1993	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	船橋	1236	annual_max	1999	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	船橋	1236	annual_max	2008	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	船橋	1236	annual_max	2024	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	茂原	0381	annual_max	1984	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	茂原	0381	annual_max	1996	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	茂原	0381	annual_max	1998	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	茂原	0381	annual_max	2008	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	茂原	0381	annual_max	2019	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	茂原	0381	annual_max	2020	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1887	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1888	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1889	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1890	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1891	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1892	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1893	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1894	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1895	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1896	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1897	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1898	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1899	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1900	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1901	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1902	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1903	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1904	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1905	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1906	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1907	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1908	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1909	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1910	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1911	10分_品質 missing、1時間_品質 missing	10分_品質 blank、1時間_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1912	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1913	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1914	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1915	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1916	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1917	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1918	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1919	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1920	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1921	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1922	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1923	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1924	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1925	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1926	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1927	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1928	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1929	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1930	10分_品質 missing	10分_品質 blank	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1931	10分_品質 missing、1時間_品質 quasi	10分_品質 blank、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1932	10分_品質 missing、1時間_品質 quasi	10分_品質 blank、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1933	10分_品質 missing、1時間_品質 quasi	10分_品質 blank、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1934	10分_品質 missing、1時間_品質 quasi	10分_品質 blank、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1935	10分_品質 missing、1時間_品質 quasi	10分_品質 blank、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1936	10分_品質 missing、1時間_品質 quasi	10分_品質 blank、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1945	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1946	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	1948	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	銚子	47648	annual_max	2026	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	鋸南	0383	annual_max	1978	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	鋸南	0383	annual_max	1982	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	鋸南	0383	annual_max	1986	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	鋸南	0383	annual_max	1992	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	鋸南	0383	annual_max	2006	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	鋸南	0383	annual_max	2009	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	鋸南	0383	annual_max	2015	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	館山	47672	annual_max	1968	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	館山	47672	annual_max	2026	10分_品質 quasi、1時間_品質 quasi	10分_品質 insufficient、1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	香取	0375	annual_max	1976	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	香取	0375	annual_max	1979	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	香取	0375	annual_max	1995	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	香取	0375	annual_max	1999	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	香取	0375	annual_max	2008	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	鴨川	0384	annual_max	1976	1時間_品質 quasi	1時間_品質 insufficient	2026-09-04	amamizu fetch annual_max
+2026-09-28	鴨川	0384	annual_max	2008	10分_品質 quasi	10分_品質 insufficient	2026-09-04	amamizu fetch annual_max

@@ -1,0 +1,32 @@
+{
+  "kind": "design",
+  "title": "台風25号 我孫子（我孫子地区）",
+  "guideline": "chiba_2006",
+  "created": "2026-09-24T12:59:00",
+  "tc_min": 10,
+  "allowable_q_m3s": 0.025,
+  "catchments": [
+    {
+      "name": "開発区域",
+      "area_ha": 1.0,
+      "f": 0.8
+    }
+  ],
+  "observed_rain": {
+    "station": "我孫子",
+    "series": "tenmin",
+    "start": "2026-09-20",
+    "end": "2026-09-22"
+  },
+  "pond": {
+    "prismatic": {
+      "area_m2": 527.0,
+      "hwl_m": 2.0
+    }
+  },
+  "orifice": {
+    "sill_m": 0.0,
+    "width_m": 0.082,
+    "height_m": 0.082
+  }
+}

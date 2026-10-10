@@ -1,0 +1,17 @@
+{
+  "name": "基準の名前（発行年）",
+  "hydraulics_note": "放流の式の係数。g は重力加速度 m/s2、c_weir は越流係数、c_orifice はオリフィスの流量係数。使用する基準の値を書く",
+  "hydraulics": {"g": 9.8, "c_weir": 1.8, "c_orifice": 0.6},
+  "formula_note": "確率別降雨強度式 r = a / (t^n + b)。r は mm/hr、t は分。地区 → 確率年 → [a, n, b]。n は分数で書ける",
+  "formulas": {
+    "地区A": {"10": [0, "1/1", 0], "50": [0, "1/1", 0]}
+  },
+  "formula_table_note": "基準の表の降雨強度 mm/hr。地区 → 確率年 → [formula_table_conditions の t_min（分）の順の値]。digits は表の値の小数の桁数。強度式の係数を表の値と照合するのに使う",
+  "formula_table_conditions": {"t_min": [10, 60, 1440], "digits": 1},
+  "formula_table": {
+    "地区A": {"10": [0, 0, 0], "50": [0, 0, 0]}
+  },
+  "district_note": "default_district は WebGUI で計画降雨を選ぶときの地区の初期値、district_term は区域の呼び方",
+  "default_district": "地区A",
+  "district_term": "地区"
+}

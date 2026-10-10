@@ -1,0 +1,32 @@
+{
+  "kind": "design",
+  "title": "台風25号 鋸南（館山地区）",
+  "guideline": "chiba_2006",
+  "created": "2026-09-24T12:58:52",
+  "tc_min": 10,
+  "allowable_q_m3s": 0.035,
+  "catchments": [
+    {
+      "name": "開発区域",
+      "area_ha": 1.0,
+      "f": 0.8
+    }
+  ],
+  "observed_rain": {
+    "station": "鋸南",
+    "series": "tenmin",
+    "start": "2026-09-20",
+    "end": "2026-09-22"
+  },
+  "pond": {
+    "prismatic": {
+      "area_m2": 750.0,
+      "hwl_m": 2.0
+    }
+  },
+  "orifice": {
+    "sill_m": 0.0,
+    "width_m": 0.097,
+    "height_m": 0.097
+  }
+}

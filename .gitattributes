@@ -1,0 +1,7 @@
+# 正解ファイル（バイト単位で比べる）と取得データは、改行を変換せずそのまま保存する
+tests/golden/** -text
+studies/**/raw/** -text
+studies/**/input/** -text
+studies/_jma/** -text
+# uv が LF で書く生成物。作業ツリーでも LF のままにする（CRLF への変換の警告を出さない）
+uv.lock text eol=lf

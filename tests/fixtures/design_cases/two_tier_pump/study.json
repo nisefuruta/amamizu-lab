@@ -1,0 +1,55 @@
+{
+  "kind": "design",
+  "title": "2段のオリフィスとポンプ",
+  "guideline": "chiba_2006",
+  "tc_min": 10,
+  "rain": {
+    "formula": {
+      "type": "cleveland",
+      "a": 2439,
+      "b": 11.9,
+      "n": "3/4"
+    },
+    "shape": "rear"
+  },
+  "catchments": [
+    {
+      "name": "区域",
+      "area_ha": 1.2,
+      "f": 0.9
+    }
+  ],
+  "pond": {
+    "table": {
+      "file": "input/pond.csv"
+    }
+  },
+  "orifices": [
+    {
+      "sill_m": 10.0,
+      "width_m": 0.07,
+      "height_m": 0.07
+    },
+    {
+      "sill_m": 11.2,
+      "shape": "circle",
+      "diameter_m": 0.12
+    }
+  ],
+  "pump": {
+    "levels_m": [
+      10.5,
+      11.0,
+      12.0
+    ],
+    "q_m3s": [
+      0.005,
+      0.01,
+      0.015
+    ]
+  },
+  "allowable_q_m3s": 0.06,
+  "judge": {
+    "storage_margin_m3": 30
+  }
+}

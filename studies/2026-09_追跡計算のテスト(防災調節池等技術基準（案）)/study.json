@@ -1,0 +1,39 @@
+{
+  "kind": "design",
+  "title": "追跡計算のテスト(防災調節池等技術基準（案）)",
+  "guideline": null,
+  "hydraulics": {
+    "g": 9.8,
+    "c_weir": 1.8,
+    "c_orifice": 0.6
+  },
+  "created": "2026-09-28T11:55:48",
+  "tc_min": 20,
+  "allowable_q_m3s": 6.0,
+  "rain": {
+    "formula": {
+      "type": "cleveland",
+      "a": 2590.0,
+      "b": 12.9,
+      "n": "3/4"
+    },
+    "shape": "rear"
+  },
+  "catchments": [
+    {
+      "name": "区域",
+      "area_ha": 247.9,
+      "f": 0.84
+    }
+  ],
+  "pond": {
+    "table": {
+      "file": "input/pond.csv"
+    }
+  },
+  "orifice": {
+    "sill_m": 24.0,
+    "width_m": 0.9,
+    "height_m": 0.9
+  }
+}

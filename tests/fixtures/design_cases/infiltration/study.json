@@ -1,0 +1,79 @@
+{
+  "kind": "design",
+  "title": "浸透施設",
+  "guideline": "chiba_2006",
+  "tc_min": 10,
+  "rain": {
+    "formula": {
+      "type": "sherman",
+      "a": 340,
+      "n": 0.6
+    },
+    "shape": "rear",
+    "hours": 24
+  },
+  "catchments": [
+    {
+      "name": "区域",
+      "area_ha": 1.0,
+      "f": 0.9
+    }
+  ],
+  "pond": {
+    "prismatic": {
+      "area_m2": 500.0,
+      "hwl_m": 2.5
+    }
+  },
+  "orifice": {
+    "sill_m": 0.0,
+    "width_m": 0.07,
+    "height_m": 0.07
+  },
+  "infiltration": {
+    "facilities": [
+      {
+        "name": "浸透ます",
+        "shape": {
+          "kind": "circle_side_bottom",
+          "H_m": 1.0,
+          "D_m": 0.5
+        },
+        "permeability": {
+          "value": 1e-05,
+          "unit": "m/s"
+        },
+        "count": 30,
+        "factors": {
+          "clogging": 0.9,
+          "groundwater": 0.9,
+          "safety": 1.0
+        },
+        "void_parts": [
+          {
+            "volume_m3": 0.2,
+            "porosity_pct": 100
+          },
+          {
+            "volume_m3": 0.8,
+            "porosity_pct": 40
+          }
+        ]
+      },
+      {
+        "name": "透水性舗装",
+        "specific_m2": 1.294,
+        "permeability": {
+          "value": 0.022,
+          "unit": "m/h"
+        },
+        "count": 2000,
+        "factors": {
+          "clogging": 0.9,
+          "groundwater": 0.9,
+          "safety": 0.1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "design",
+  "title": "ハイドログラフの入力・段のある池",
+  "guideline": "chiba_2006",
+  "tc_min": 20,
+  "inflow_csv": {
+    "file": "input/hydrograph.csv",
+    "time_col": "時刻_分",
+    "q_col": "流入量_m3s"
+  },
+  "pond": {
+    "table": {
+      "file": "input/pond.csv",
+      "level_col": "水位H",
+      "area_col": "面積F",
+      "volume_col": "容量V"
+    }
+  },
+  "orifice": {
+    "sill_m": 24.0,
+    "width_m": 0.3,
+    "height_m": 0.3
+  },
+  "end_min": 1200
+}

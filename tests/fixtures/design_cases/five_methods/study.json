@@ -1,0 +1,39 @@
+{
+  "kind": "design",
+  "title": "タルボット式・中央集中型・丸め・表の池",
+  "guideline": "chiba_2006",
+  "tc_min": 10,
+  "rain": {
+    "formula": {
+      "type": "talbot",
+      "a": 1914,
+      "b": 12.3
+    },
+    "shape": "center",
+    "round_digits": 1
+  },
+  "catchments": [
+    {
+      "name": "区域",
+      "area_ha": 1.0,
+      "f": 0.85
+    }
+  ],
+  "pond": {
+    "table": {
+      "file": "input/pond.csv"
+    }
+  },
+  "orifice": {
+    "sill_m": 10.0,
+    "shape": "circle",
+    "diameter_m": 0.15
+  },
+  "spillway": {
+    "crest_m": 12.5,
+    "width_m": 1.0
+  },
+  "judge": {
+    "storage_margin_m3": 30
+  }
+}

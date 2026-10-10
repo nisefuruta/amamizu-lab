@@ -1,0 +1,27 @@
+# 試験（uv run pytest）を Ubuntu で実行する。push では動かさず、GitHub の Actions の画面（Run workflow）か
+# gh workflow run test.yml で手で実行したときだけ動く。
+# グラフと PDF の試験に日本語のフォントが要るので、IPAex ゴシックをインストールする（README の「日本語のフォント」）。
+# AMAMIZU_REQUIRE_JP_FONT=1 で、フォントがなければスキップせずに止める（tests/conftest.py）。
+name: 試験
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    env:
+      AMAMIZU_REQUIRE_JP_FONT: "1"
+    steps:
+      - uses: actions/checkout@v7
+      - name: 日本語のフォントをインストールする
+        run: sudo apt-get update && sudo apt-get install -y fonts-ipaexfont-gothic
+      - uses: astral-sh/setup-uv@v10.2.0
+        with:
+          python-version: "3.13"     # 手元と同じ版で試験する（requires-python は 3.12 以上）
+      - name: 環境を作る
+        run: uv sync
+      - name: 型の検査
+        run: uv run mypy
+      - name: 試験
+        run: uv run pytest

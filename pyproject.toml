@@ -1,0 +1,67 @@
+[project]
+name = "amamizu-lab"
+version = "0.1.0"
+description = "雨水ラボ: 調整池の貯留追跡計算（厳密計算）をするツール"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+dependencies = [
+  "jma-rainfall",
+  "matplotlib>=3.8",
+  "numpy>=2.0",
+  "pandas>=2.2",
+  "reportlab>=5.0.1",
+]
+
+[project.scripts]
+amamizu = "amamizu.cli:run"
+
+[project.optional-dependencies]
+gui = [
+    "nicegui>=3.17.1",
+    "send2trash>=2.1.0",
+    "uvicorn>=0.53.0",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=2.3.1",
+    "nicegui>=3.17.1",
+    "pandas-stubs>=3.0.5.260914",
+    "pytest>=8",
+    "pytest-asyncio>=1.4.0",
+    "send2trash>=2.1.0",
+    "uvicorn>=0.53.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.8.14,<0.9"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "needs_japanese_font: グラフ（PNG）か PDF を出す試験。日本語のフォントがなければスキップする（tests/conftest.py）",
+]
+
+[tool.mypy]
+# 型の検査（uv run mypy）。domain は厳密な設定、usecases は関数の本体まで確かめる通常の設定。
+# adapters・app・cli・gui は対象にしない（入出力と表示が中心で、型の効果に比べて手間が大きい）
+files = ["src/amamizu/domain", "src/amamizu/usecases"]
+strict = true
+
+[[tool.mypy.overrides]]
+module = ["amamizu.usecases.*"]
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+disallow_untyped_calls = false
+disallow_any_generics = false
+warn_return_any = false
+check_untyped_defs = true
+
+[tool.uv.build-backend]
+module-name = "amamizu"
+
+[tool.uv.sources]
+jma-rainfall = { git = "https://github.com/nisefuruta/jma-rainfall.git", rev = "551fe39d4d251b0df01437b5cc6416e2c43c2ff0" }

@@ -1,0 +1,32 @@
+{
+  "kind": "design",
+  "title": "円形のオリフィスの直径を求める",
+  "guideline": "chiba_2006",
+  "tc_min": 10,
+  "rain": {
+    "formula": {
+      "type": "kuno_ishiguro",
+      "a": 800,
+      "b": 3.0
+    },
+    "shape": "rear"
+  },
+  "catchments": [
+    {
+      "name": "区域",
+      "area_ha": 1.0,
+      "f": 0.9
+    }
+  ],
+  "pond": {
+    "table": {
+      "file": "input/pond.csv"
+    }
+  },
+  "orifice": {
+    "sill_m": 10.0,
+    "shape": "circle"
+  },
+  "mode": "size_orifice",
+  "target_q_m3s": 0.08
+}

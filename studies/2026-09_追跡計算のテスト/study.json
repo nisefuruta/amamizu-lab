@@ -1,0 +1,39 @@
+{
+  "kind": "design",
+  "title": "追跡計算のテスト(手引き資料-4計算例)",
+  "guideline": "chiba_2006",
+  "tc_min": 10,
+  "allowable_q_m3s": 0.236,
+  "rain": {
+    "guideline": {
+      "district": "千葉",
+      "return_period": 50
+    },
+    "shape": "rear"
+  },
+  "catchments": [
+    {
+      "name": "浸透処理区域",
+      "area_ha": 4.329,
+      "f": 1.0,
+      "infiltration": {
+        "intensity_mmh": 13.05
+      }
+    },
+    {
+      "name": "無処理区域",
+      "area_ha": 5.121,
+      "f": 0.773
+    }
+  ],
+  "pond": {
+    "table": {
+      "file": "input/pond.csv"
+    }
+  },
+  "orifice": {
+    "sill_m": 0.0,
+    "width_m": 0.211,
+    "height_m": 0.211
+  }
+}

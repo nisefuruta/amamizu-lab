@@ -1,0 +1,40 @@
+{
+  "name": "試験用の最小の基準（早見表なし）",
+  "formulas": {
+    "甲": {
+      "50": [
+        2439,
+        "3/4",
+        11.9
+      ]
+    }
+  },
+  "formula_table": {
+    "甲": {
+      "50": [
+        139.2,
+        72.9,
+        9.9
+      ]
+    }
+  },
+  "formula_table_conditions": {
+    "t_min": [
+      10,
+      60,
+      1440
+    ],
+    "digits": 1
+  },
+  "qc_min": {
+    "default": 0.025
+  },
+  "runoff": {
+    "impervious": 1.0,
+    "pervious": 0.6,
+    "cap": 0.9
+  },
+  "district_of_station": {
+    "観測所A": "甲"
+  }
+}

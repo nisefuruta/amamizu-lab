@@ -1,0 +1,12 @@
+{
+  "kind": "return_period",
+  "title": "県の手引きによる降雨強度の検証",
+  "guideline": "chiba_2006",
+  "standard_period": 10,
+  "duration_min": 10,
+  "last_year": 2025,
+  "event": {
+    "label": "2026年8月13〜15日",
+    "month": "2026年8月"
+  }
+}

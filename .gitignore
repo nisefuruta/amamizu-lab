@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+dist/
+build/
+.pytest_cache/
+studies/*/out/
+.nicegui/
+
+# 作業記録と Claude Code 用の指示（手元にだけ置く）
+tasks/
+CLAUDE.md

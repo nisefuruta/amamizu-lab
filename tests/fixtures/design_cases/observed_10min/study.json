@@ -1,0 +1,36 @@
+{
+  "kind": "design",
+  "title": "実測降雨（館山の10分値、欠測を含む）",
+  "guideline": "chiba_2006",
+  "tc_min": 10,
+  "allowable_q_m3s": 0.02,
+  "catchments": [
+    {
+      "name": "舗装",
+      "area_ha": 0.6,
+      "f": 0.9
+    },
+    {
+      "name": "緑地",
+      "area_ha": 0.4,
+      "f": 0.3
+    }
+  ],
+  "observed_rain": {
+    "station": "館山",
+    "series": "tenmin",
+    "start": "2026-02-23",
+    "end": "2026-02-25"
+  },
+  "pond": {
+    "prismatic": {
+      "area_m2": 300.0,
+      "hwl_m": 1.5
+    }
+  },
+  "orifice": {
+    "sill_m": 0.0,
+    "width_m": 0.06,
+    "height_m": 0.06
+  }
+}
